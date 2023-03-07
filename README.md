@@ -20,7 +20,10 @@ Project in React
 Have some commands:
 1. npx create-react-app my-app
 
+si es la primera vez entonces aceptar la creación de react app
+
 ------
 Link of study
 1. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map --> MAP
 2. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment --> desestructuración
+3. arreglos -> https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
