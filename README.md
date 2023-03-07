@@ -31,4 +31,24 @@ Link of study
 5. Fetch API https://developer.mozilla.org/es/docs/Web/API/Fetch_API
 6. Giphy https://developers.giphy.com/
 7. doc de js https://developer.mozilla.org/es/
-8. 
+8. crear app con vite en react https://vitejs.dev/guide/ 
+colocar en la consola dentro del proyecto
+
+yarn create vite
+
+y luego 
+
+yarn o yarn install para instalar las dependencias
+
+La forma de cambiar modulos en caliente es mucho mas rapido que react
+las configuraciones son las mas basicas
+
+react-dom -> esta relacionado a la parte del HTML document Object model
+vite configuraciones globales de react
+
+como es yarn se ejecuta con yarn dev
+---
+9. Robots txt https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=es&visit_id=638138052457717610-4032027159&rd=1
+10. PWA https://web.dev/learn/pwa/
+11. react script https://create-react-app.dev/docs/available-scripts/
+12
