@@ -27,3 +27,8 @@ Link of study
 1. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map --> MAP
 2. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment --> desestructuración
 3. arreglos -> https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+4. promesas -> https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+5. Fetch API https://developer.mozilla.org/es/docs/Web/API/Fetch_API
+6. Giphy https://developers.giphy.com/
+7. doc de js https://developer.mozilla.org/es/
+8. 
