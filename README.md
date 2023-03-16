@@ -100,8 +100,8 @@ para ejecutar las pruebas
 yarn add --dev babel-jest @babel/core @babel/preset-env
 
 crear el archivo de babel seguir https://jestjs.io/docs/getting-started
-
-
+19. agregar desde la terminal yarn add -D jest-environment-jsdom
+20. 
 
 
 
