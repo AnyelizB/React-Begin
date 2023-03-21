@@ -53,8 +53,14 @@ como es yarn se ejecuta con yarn dev
 11. react script https://create-react-app.dev/docs/available-scripts/
 12. Short cut
 racf exporta una funcion para retornar una salida 
-13. props son los prototype, es información que fuye entre componente padre y componente hijo
+13. PROPS son los prototype, es información que fuye entre componente padre y componente hijo
+ Que son los Props Los "props" en React son un mecanismo para pasar datos de un componente padre a un componente hijo. "Props" es una abreviatura de "propiedades" en inglés.
 
+En React, un componente puede aceptar "props" como argumentos de su función y utilizar estos valores para renderizar su salida. Por ejemplo, un componente de "Botón" podría aceptar una "propiedad" "color" para especificar el color del botón que se renderiza.
+
+Los "props" son objetos inmutables (es decir, no se pueden modificar directamente en el componente hijo) que se pasan desde el componente padre al componente hijo. Esto ayuda a mantener un flujo de datos unidireccional en la aplicación, lo que facilita la comprensión del estado y la lógica del flujo de datos.
+
+En resumen, los "props" en React son un mecanismo importante para la comunicación entre componentes y para la creación de componentes reutilizables y modulares.
 se puede ir al navegador y en la seccion del components podemos ver todos los componentes con sus props
 para instalar los proptypes usamos 
 yarn add prop-types
@@ -100,8 +106,23 @@ para ejecutar las pruebas
 yarn add --dev babel-jest @babel/core @babel/preset-env
 
 crear el archivo de babel seguir https://jestjs.io/docs/getting-started
+
 19. agregar desde la terminal yarn add -D jest-environment-jsdom
-20. 
+20. se puede hacer uso del snapshot praa asegurase de los cambios y las pruebas 
+    test('mostrar en el titulo Hola, lili bonita', () => { 
+        const title = 'Hola, Soy lili'
+        const {container} = render(<FirstApp title={title} />)
+        expect(container).toMatchSnapshot();
+     });
+     esto crea una carpeta de esos cambios 
+21. Para actualizar el snapshot en la terminal se coloca la letra 'u'
+22. tipos de test
+
+toBe:  que todo sea identico, espacios,contenido
+toContain: no me importa los espacios, debe contener esa palabra no mas
+toBeTruthy: que el contenido exista
+23.
+
 
 
 
