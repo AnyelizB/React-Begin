@@ -121,8 +121,11 @@ crear el archivo de babel seguir https://jestjs.io/docs/getting-started
 toBe:  que todo sea identico, espacios,contenido
 toContain: no me importa los espacios, debe contener esa palabra no mas
 toBeTruthy: que el contenido exista
-23.
-
+23. REact no tiene lineamientos, se es libre de estructurar como quieran 
+24. estructura de archivos https://es.reactjs.org/docs/faq-structure.html
+25. https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76 estructura de proyectos
+26. https://gist.github.com/Klerith/e4fca6ac127ccb9abd1e8ad77fcd52f1 estilos
+27. 
 
 
 
